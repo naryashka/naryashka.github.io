@@ -1,9 +1,9 @@
 
-body{
+body {
 	background: #eee;
 }
 
-.Page{
+.page {
 	height: 721px;
 	width: 462px;
 	background-color: white;
@@ -19,6 +19,10 @@ body{
  	text-align: center; 
  }
 
- .Page p{
+ .page p{
  	padding-left: 10px;
+ }
+
+ img {
+ 	height: 150px;
  }
