@@ -13,7 +13,7 @@ body {
 }
 
 .center {
-	width: 1060px;
+	width: 80%;
 	background: #ffffff;
 	margin: 0 auto;
 	border-left: 2px solid #dbdbdb;
@@ -22,12 +22,12 @@ body {
 
 header {
 	background: #ffffff;
-	width: 1060px;	
+	width: 90%;	
 }
 
 .menu1 {
 	height: 40px;
-	width: 965px;
+	width: 90%;
 	margin: 0 auto;
 	background: linear-gradient(to top, #3d3c3c, #6d6b6b);
 }
@@ -54,7 +54,7 @@ ul {
 }
 
 .content {
-	width: 965px;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ section {
 footer {
 	clear: both;
 	height: 40px;
-	width: 965px;
+	width: 90%;
 	margin: 0 auto;
 	background: #dad9d9;
 	margin-bottom: 60px;
