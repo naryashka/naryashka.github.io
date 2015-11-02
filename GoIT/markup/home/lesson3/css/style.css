@@ -81,7 +81,7 @@ aside ul li:hover {
 
 .content img {
 	margin-top: 40px;
-	width: 680px;
+	width: 65%;
 	float: right;
 	border: 1px solid #c8c8c8;
 	top: 0;
@@ -89,7 +89,7 @@ aside ul li:hover {
 
 section {
 	float: right;
-	width: 655px;
+	width: 62%;
 	margin-top: 40px;
 	margin-bottom: 60px;
 }
@@ -106,6 +106,7 @@ footer {
 	width: 965px;
 	margin: 0 auto;
 	background: #dad9d9;
+	margin-bottom: 60px;
 }
 
 footer ul li {
@@ -127,6 +128,3 @@ footer ul li:hover {
 	padding: 10px 25px 10px 25px;
 }
 
-.end {
-	height: 60px;
-}
