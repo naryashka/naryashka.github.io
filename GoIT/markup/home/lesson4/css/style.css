@@ -4,46 +4,26 @@
 }
 
 body {
-	font-family: Tahoma;
+	font-family: Tahoma;	
+}
+
+.main {
+	background-image: url(../img/background.jpg);
+	width: 100%;
+	height: 1060px;
 	
 }
 
-.darkblue {
-	height: 30px;
-	background-color: #128aa7;
-	width: 100%;
-	position: relative;
-	z-index: 0;
-
-}
-
-.gradient {
-	height: 145px;
-	background: linear-gradient(to bottom, #14cee2, #fcfeff);
-    border-top: 1px solid #5ef0ff;
-   	position: relative;
-	z-index: 0;
-
-
-}
-
-.blue {
-	height: 815px;
-	background: linear-gradient(to top, #0c739f, #3fc5d2);
-	position: relative;
-	z-index: 0;
-}
-
 .shadow {
-margin: 0 auto;
-height: auto;
-box-shadow: 3px 9px 15px 1px rgba(0,0,0,0.7);
-width: 75%;
-position: absolute;
-z-index: 2;
-top: 0;
-left: 50%;
-margin-left:-500px;
+	margin: 0 auto;
+	height: auto;
+	box-shadow: 3px 9px 15px 1px rgba(0,0,0,0.7);
+	width: 75%;	
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 50%;
+	margin-left:-500px;
 }
 
 .logo {
@@ -51,7 +31,7 @@ margin-left:-500px;
 }
 
 .content {
-	
+	height: 100%;
 }
 
 header {
@@ -112,8 +92,8 @@ header ul li:last-child {
 background-image: -webkit-linear-gradient(#373737 0%, #303030 100%);
 background-image: -o-linear-gradient(#373737 0%, #303030 100%);
 background-image: linear-gradient(#373737 0%, #303030 100%);
-border-bottom: 2px solid black;
-font-size: 14px;
+	border-bottom: 2px solid black;
+	font-size: 14px;
 }
 
 .list a{
@@ -186,7 +166,6 @@ font-size: 14px;
 .column1 {
 	float: left;
 	width: 20%;
-	height: 550px;
 	background-color: #edeef0;
 	text-align: center;
 	padding-bottom: 20000px;
@@ -196,28 +175,31 @@ font-size: 14px;
 .column2 {
 	float: left;
 	width: 60%;
-	height: 550px;
 	background-color: #ffffff;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 }
 
 .column3 {
-	float: left;
+	float: right;
 	width: 20%;
-	height: 550px;
 	background-color: #edeef0;
 	text-align: center;
 	padding-bottom: 20000px;
 	margin-bottom: -20000px;
 }
 
+.column3:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 footer {
-	clear: both;
 	width: 100%;
 	height: 30px;
 	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: #0c739f;
 	text-align: center;
 }
