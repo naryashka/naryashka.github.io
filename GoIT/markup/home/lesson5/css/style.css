@@ -191,4 +191,11 @@ input:hover {
 	width: 149px;
 	border-top: 2px solid #67c6e6;
 	border-radius: 4px;
+	border-bottom: none;
 } 
+
+.submit:hover {
+	background-image: linear-gradient(to bottom, #4FACDB 0%, #2E79C4 100%); 
+	box-shadow: none;
+	border-bottom: none;
+}
