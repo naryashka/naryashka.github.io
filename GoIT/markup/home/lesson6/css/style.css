@@ -5,12 +5,14 @@
 
 body {
 	font-family: Arial;
+	background-color: white;
 }
 
 main {
 	height: 1310px;
 	width: 910px;
 	margin: 0 auto;
+	background-color: white;
 }
 
 header {
@@ -44,7 +46,6 @@ header {
 }
 
 .login {
-	width: 495px;
 	height: 26px;
 	float: left;
 	background-image: linear-gradient(to bottom, #1F6887 0%, #0C3357 100%);
@@ -491,13 +492,13 @@ figcaption {
 }
 
 figure img {
-	margin-top: 6px;
-	margin-left: -5px;
+	margin-top: 0px;
+	margin-left: 0px;
 }
 
 .top_caption {
 	text-align: center;
-	margin-top: -33px;
+	margin-top: -2em;
 	margin-left: 5px;
 }
 
