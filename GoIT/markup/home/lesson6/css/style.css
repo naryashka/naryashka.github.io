@@ -6,6 +6,7 @@
 body {
 	font-family: Arial;
 	background-color: white;
+
 }
 
 main {
@@ -337,6 +338,7 @@ section {
 
 .list {
 	margin-left: 50px;
+	height: 100px;
 }
 
 .list ul li{
@@ -362,6 +364,10 @@ section {
 	font-size: 14px;
 }
 
+.bolts {
+	margin-top: 0px;
+}
+
 .dicks {
 	position: absolute;
 	margin-top: 0px;
@@ -369,6 +375,7 @@ section {
 
 .list2 {
 	margin-top: 28px;
+	height: 100px;
 }
 
 .brands .title {
@@ -431,14 +438,21 @@ section {
 
 figure {
 	position: absolute;
-	width: 137px;
-	height: 127px;
-	border: 1px solid #a6b0b3;
 	margin-top: 42px;
 	margin-bottom: 32px; 
+	text-align: center;
+}
+
+.tire-img {
+	position: absolute;
+	width: 137px;
+	height: 125px;
+	border: 1px solid #a6b0b3;
 	background-color: white;
 	border-radius: 8px;
 	text-align: center;
+	padding-top: 5px;
+	padding-left: -2px;
 }
 
 .tire1 {
@@ -491,10 +505,6 @@ figcaption {
 	width: 130px;
 }
 
-figure img {
-	margin-top: 0px;
-	margin-left: 0px;
-}
 
 .top_caption {
 	text-align: center;
@@ -521,7 +531,8 @@ figure img {
 	font-style: italic;
 	font-weight: bolder;
 	margin-left: 9px;
-	margin-top: 2px;
+	margin-top: 133px;
+	position: absolute;
 }
 
 .uah {
