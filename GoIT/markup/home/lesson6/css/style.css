@@ -413,6 +413,15 @@ section {
 	margin-left: -45px;
 }
 
+.checkbox label:hover {
+	color: #0c3256;
+	text-decoration: underline;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 14px;
+}
+
 .submit {
 	cursor: pointer;
 	width: 81px;
@@ -550,9 +559,15 @@ figcaption {
 	margin-top: 5px;
 }
 
-.pre-footer img {
-	margin-left: 115px;
-	margin-top: 38px;
+.pre-footer ul li {
+	list-style: none;
+	float: left;
+	margin-right: 13px;
+	margin-top: 41px;
+}
+
+.pre-footer ul li:first-child {
+	margin-left: 117px;
 }
 
 footer {
