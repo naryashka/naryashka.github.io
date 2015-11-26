@@ -447,7 +447,7 @@ section {
 
 figure {
 	position: absolute;
-	margin-top: 42px;
+	
 	margin-bottom: 32px; 
 	text-align: center;
 }
@@ -464,56 +464,19 @@ figure {
 	padding-left: -2px;
 }
 
-.tire1 {
-	margin-top: 43px;
+.container-list li {
+	display: inline-block;
+	height: 125px;
+	width: 137px;
+	margin-top: 65px;
 	margin-left: 23px;
-}
-
-.tire2 {
-	margin-top: 43px;
-	margin-left: 191px;
-}
-
-.tire3 {
-	margin-top: 43px;
-	margin-left: 360px;
-}
-
-.tire4 {
-	margin-top: 246px;
-	margin-left: 23px;
-}
-
-.tire5 {
-	margin-top: 246px;
-	margin-left: 191px;
-}
-
-.tire6 {
-	margin-top: 246px;
-	margin-left: 360px;
-}
-
-.tire7 {
-	margin-top: 449px;
-	margin-left: 23px;
-}
-
-.tire8 {
-	margin-top: 449px;
-	margin-left: 191px;
-}
-
-.tire9 {
-	margin-top: 449px;
-	margin-left: 360px;
+	list-style: none;
 }
 
 figcaption {
 	font-family: 'Lucida Sans Unicode', arial;
 	width: 130px;
 }
-
 
 .top_caption {
 	text-align: center;
