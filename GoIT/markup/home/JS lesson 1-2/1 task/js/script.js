@@ -7,7 +7,7 @@ var isEven = function(someNumber) {
 	return (someNumber % 2 == 0) ? true : false;
 };
 
-//функция возведения числа в степень
+// функция возведения числа в степень
 function pow(number, exponent) {
 	var result = 1;
 	if (exponent > 0) {
@@ -35,3 +35,4 @@ function pow(number, exponent) {
 }
 
 var calculationResult = pow (number, exponent);
+

@@ -7,10 +7,10 @@ var myName = prompt('Please enter your name');
 function compare(arrName, name) {
 	for (var i = 0; i < arrName.length; i++) {
 		if (arrName[i] == name) {
-			return(console.log(name,', вы успешно вошли'));
+			return(alert(name + ", вы успешно вошли"));
 		}
 	}
-		return(console.log('Ошибка: такого имени нет в списке имен'));	
+		return(alert('Ошибка: такого имени нет в списке имен'));	
 }
 
 
