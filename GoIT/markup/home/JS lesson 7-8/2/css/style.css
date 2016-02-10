@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#tabs {
+	border: 1px solid #ccc; 
+	border-radius: 8px;
+	margin: 100px;
+}
+
+li {
+	list-style: none;
+}
+
+#tabs .tabs {
+	overflow: hidden; 
+	border-bottom: 1px solid #ccc;
+	background: #FFE4B5;
+}
+
+#tabs .tabs li {
+	float: left;
+
+}
+
+#tabs .tabs li + li {
+	border-left: 1px solid #ccc;
+}
+
+#tabs .tabs li a {
+	display: block; 
+	padding: 8px 16px; 
+	font-size: 18px; 
+	line-height: 21px; 
+	color: #999;
+}
+
+#tabs .tabs li a.active,
+#tabs .tabs li a:hover {
+	text-decoration: none;
+	color: black;
+
+}
+
+#tabs .tabs li:hover {
+	background: #FA8072;
+}
+
+#tabs .tabs-content {
+	margin-top: -10px;
+	padding: 20px; 
+	font-size: 16px; 
+	line-height: 21px;
+	background: #FFF8DC;
+}
+
+a {
+	text-decoration: none;
+}

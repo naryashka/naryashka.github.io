@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.carousel.js"></script>
+   <script src="js/template.js"></script>
+	<title>JS lesson 11-12</title>
+</head>
+<body>
+<div class="wrapper clearfix">
+  <div class="carousel-arrow-left .arrow"><span>Left</span></div>
+    <div class="carousel-hider">
+      <ul class="carousel-list">
+        <li class="carousel-element"><img src="img/image1.jpg"><p>Tattoo 1</p></li>
+        <li class="carousel-element"><img src="img/image2.jpg"><p>Tattoo 2</p></li>
+        <li class="carousel-element"><img src="img/image3.jpg"><p>Tattoo 3</p></li>
+        <li class="carousel-element"><img src="img/image4.jpg"><p>Tattoo 4</p></li>
+        <li class="carousel-element"><img src="img/image5.jpg"><p>Tattoo 5</p></li>
+        <li class="carousel-element"><img src="img/image6.jpg"><p>Tattoo 6</p></li>
+        <li class="carousel-element"><img src="img/image7.jpg"><p>Tattoo 7</p></li>
+        <li class="carousel-element"><img src="img/image8.jpg"><p>Tattoo 8</p></li>
+        <li class="carousel-element"><img src="img/image9.jpg"><p>Tattoo 9</p></li>
+        <li class="carousel-element"><img src="img/image10.jpg"><p>Tattoo 10</p></li>
+        <li class="carousel-element"><img src="img/image11.jpg"><p>Tattoo 11</p></li>
+        <li class="carousel-element"><img src="img/image12.jpg"><p>Tattoo 12</p></li>
+      </ul>
+    </div>
+   <div class="carousel-arrow-right .arrow clearfix"><span>Right</span></div>
+   </div>
+
+  <script type="text/html" id="user_tmpl">
+  <% for ( var i = 0; i < data.length; i++ ) { %>
+    <div class="template page">
+      <div class="center">
+        <h1><%= data[i].title %></h1>
+         <img class="img" src="<%= data[i].url %>" alt="Малоок А.">
+        <p><%= data[i].diploma %></p>
+        </div>
+        <hr>
+        <p><%= data[i].question %></p>
+        <ul>
+          <li><%= data[i].reason1 %></li>
+          <li><%= data[i].reason2 %></li>
+          <li><%= data[i].reason3 %></li>
+        </ul>
+        <hr>
+        <ul class="contacts">
+          <li><%= data[i].phone %></li>
+          <li><%= data[i].vk %><a href="<%= data[i].href %>">Malook Anastasiia</a></li>
+          <hr>
+          <li><%= data[i].feedback %></li>
+        </ul>
+    </div>
+  <% } %>
+</script>
+</body>
+</html>

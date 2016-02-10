@@ -25,7 +25,7 @@ var generation = {
 	
 			this.createElement({
 				tagName: 'h2',
-				content: 'Вопрос №'+(i+1),
+				content: (i+1)+'. Вопрос №'+(i+1),
 				parentElement: form
 			});
 
