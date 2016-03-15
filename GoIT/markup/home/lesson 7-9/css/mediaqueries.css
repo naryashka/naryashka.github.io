@@ -951,13 +951,13 @@ header {
 
 .menu {
 	margin-top: -65px;
-	margin-left: 515px;
+	margin-left: 40%;
 }
 
 .menu__more768--item {
 	float: left;
 	list-style: none;
-	margin-right: 50px;
+	margin-right: 5%;
 }
 
 .menu__more768--link {
@@ -992,7 +992,7 @@ header {
 
 .iphone {
 	visibility: visible;
-	margin-right: 18%;
+	margin-right: 5%;
 	margin-top: -20px;
 	width: 260px;
 	height: 365px;
@@ -1012,7 +1012,7 @@ header {
 	height: 55px;
 	float: left;
 	padding-top: 79px;
-	margin-left: 155px;
+	margin-left: 5%;
 }
 
 .slider__text {
