@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         src: ['js/dist/script.js'],
-        dest: 'js/dist/script.min.js'
+        dest: 'build/js/script.min.js'
       }
     },
     concat_css: {
@@ -29,8 +29,8 @@ module.exports = function(grunt) {
   cssmin: {
   minify: {
     expand: true,
-    src: ['css/dist/style.css'],
-    dest: 'css.min',
+    src: ['css/style.css'],
+    dest: './build',
     }
   },
 
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
 
-  grunt.registerTask('default', ['sass', 'watch']);
+  grunt.registerTask('default', ['sass', 'cssmin', 'concat', 'uglify']);
 
 };
 
