@@ -327,6 +327,7 @@ header {
 
 .services__menu_link {
 	@include links;
+	display: block;
 }
 
 .services__menu_title {
