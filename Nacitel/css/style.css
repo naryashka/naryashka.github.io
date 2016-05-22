@@ -400,9 +400,6 @@ input::-webkit-input-placeholder {
   -moz-box-shadow: 0 0 2px #F0EFE7;
   box-shadow: 0 0 2px #F0EFE7; }
 
-_:-o-prefocus, .jcarousel-pagination a {
-  position: absolute; }
-
 /* MAIN CONTENT */
 .main-content {
   width: 1180px;
