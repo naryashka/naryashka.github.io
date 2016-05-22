@@ -461,6 +461,10 @@ input::-webkit-input-placeholder {
     box-shadow: 0 0 2px #F0EFE7;
 }
 
+_:-o-prefocus, .jcarousel-pagination a { 
+	position: absolute;
+ };
+
 /* MAIN CONTENT */
 
 .main-content {
@@ -502,6 +506,10 @@ input::-webkit-input-placeholder {
 	margin-top: 41px;
 }
 
+_:-o-prefocus, .main-content__text_content { 
+	position: absolute;
+ };
+
 .main-content__text_article {
 	@include doors_text;
 	font-size: 36px;
@@ -516,6 +524,10 @@ input::-webkit-input-placeholder {
 	margin: 25px 45px 0px 40px;
 	line-height: 1.5em;
 }
+
+_:-o-prefocus, .main-content__text_paragraph { 
+	font-size: 12px;
+ };
 
 .main-content__text_first {
 	padding-top: 40px;

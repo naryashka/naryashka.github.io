@@ -400,6 +400,9 @@ input::-webkit-input-placeholder {
   -moz-box-shadow: 0 0 2px #F0EFE7;
   box-shadow: 0 0 2px #F0EFE7; }
 
+_:-o-prefocus, .jcarousel-pagination a {
+  position: absolute; }
+
 /* MAIN CONTENT */
 .main-content {
   width: 1180px;
@@ -435,6 +438,9 @@ input::-webkit-input-placeholder {
   box-shadow: 0px 2px 3px 3px #b1afaf;
   margin-top: 41px; }
 
+_:-o-prefocus, .main-content__text_content {
+  position: absolute; }
+
 .main-content__text_article {
   color: #5b802c;
   text-transform: uppercase;
@@ -452,6 +458,9 @@ input::-webkit-input-placeholder {
   font-family: 'Helvetica_Neue_Light';
   margin: 25px 45px 0px 40px;
   line-height: 1.5em; }
+
+_:-o-prefocus, .main-content__text_paragraph {
+  font-size: 12px; }
 
 .main-content__text_first {
   padding-top: 40px; }
