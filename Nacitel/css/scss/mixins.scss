@@ -1,0 +1,37 @@
+@mixin content-width {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+@mixin lists {
+	list-style: none;
+}
+
+@mixin links {
+	text-decoration: none;
+}
+
+@mixin header_columns {
+	height: 30px;
+	background-color: $header_column;
+	border: 1px solid $header_border;
+	box-shadow: inset 0px 0px 5px 2px #4B0909;
+	-webkit-box-shadow: inset 0px 0px 5px 2px #4B0909;
+	-moz-box-shadow: inset 0px 0px 5px 2px #4B0909;
+	-o-box-shadow: inset 0px 0px 5px 2px #4B0909;
+}
+
+@mixin basket_text {
+	color: $header-text;
+	font-family: 'Helvetica_Neue_Light';
+	font-size: 12px;
+}
+
+@mixin doors_text {
+	color: $doors-text;
+	text-transform: uppercase;
+	font-family: 'BebasNeue Bold';
+	font-size: 40px;
+	width: 135px;
+	text-align: center;
+}
