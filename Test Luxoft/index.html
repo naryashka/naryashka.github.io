@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<title>Test Luxoft</title>
+</head>
+<body onload="StartPage()">
+	<section class="data .col-md-6" id="left">
+		<table id="records" class="table table-bordered" cellspacing="0" cellpadding="0">
+		<thead>
+			<tr>
+  				<th>First Name</th>
+  				<th>Last Name</th>
+  				<th>Phone</th>
+  				<th>Gender</th>
+  				<th>Age</th>
+  				<th>Action</th>
+			</tr>
+			</thead>
+			<tbody id="records2">
+			</tbody>
+		</table>
+	</section>
+	<section class="enter_data .col-md-6">
+		<form name="data" id="data" action="#" onsubmit="addNewRecord(this);return false;">
+			<div id="first-name_block" class="form-group">
+				<label class="control-label">First Name
+					<input type="text" class="form-control" name="first_name" id="first_name" onkeyup="this.value=this.value.replace(/\d/g, '' )">
+					<span id="first-name_span"></span>
+				</label>
+			</div>
+			<div id="last-name_block" class="form-group">
+				<label class="control-label">Last Name
+					<input type="text" class="form-control" name="last_name" id="last_name" onkeyup="this.value=this.value.replace(/\d/g, '' )">
+					<span id="last-name_span"></span>
+				</label>
+			</div>
+			<div id="phone_block" class="form-group">
+				<label class="control-label">Phone
+					<input onkeyup="this.value=this.value.replace(/[^\d\.]+/g,'')" type="text" class="form-control" name="phone" id="phone">
+					<span id="phone_span"></span>
+				</label>
+			</div>
+			<div id="gender_block" class="form-group">
+			<label for="male" id="sex">Gender:</label>
+				<div class="radio disabled">
+  					<label>
+   						<input type="radio" name="gender" id="male" value="male"> Male
+  					</label>
+  					<label>
+   						<input type="radio" name="gender" id="female" value="female">Female
+  					</label>
+				</div>
+			</div>
+			<div id="age_block" class="form-group">
+				<label class="control-label">Age
+					<input  type="number" class="form-control" id="age">
+					<span id="age_span"></span>
+				</label>
+			</div>
+			<input type="submit" class="btn btn-primary" name="submit" value="Add">
+		
+		</form>
+	</section>
+
+
+	<script src="js/script.js"></script>
+</body>
+</html>

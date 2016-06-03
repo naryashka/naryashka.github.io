@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+.enter_data {
+	float: right;
+	margin-right: 100px;
+}
+
+.table  {
+	float: left;
+	margin-left: 100px;
+}
+
+#left {
+	width: 400px;
+}
+
+input {
+  border:1px solid #ccc;
+  padding:5px;
+}
+table {
+  width:100%;
+  border:1px solid #ccc;
+  margin:10px auto;
+}
+table tr:first-child {
+  border-top:none;
+  background:#f1f1f1;
+}
+table tr {
+  border-top:1px solid #ccc;
+}
+
+table td {
+  padding: 5px;
+}
+button {
+  margin-top:5px;
+}
+
+.glyphicon {
+	right: 0;
+	margin-top: 20px;
+}
+
+.wrong {
+	color: #a94442;
+}
+
+.write {
+	color: #3c763d;
+}
+
+th {
+      cursor: pointer;
+    }
+
+    th:hover {
+      background: yellow;
+    }
