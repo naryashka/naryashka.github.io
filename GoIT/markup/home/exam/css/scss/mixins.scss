@@ -1,0 +1,12 @@
+@mixin content-width {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+@mixin lists {
+	list-style: none;
+}
+
+@mixin links {
+	text-decoration: none;
+}
