@@ -3,67 +3,25 @@
   padding: 0; 
 }
 
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
 .enter_data {
 	float: right;
-	margin-right: 100px;
 }
 
-.table  {
-	float: left;
-	margin-left: 100px;
-}
-
-#left {
-	width: 400px;
-}
-
-input {
-  border:1px solid #ccc;
-  padding:5px;
-}
-table {
-  width:100%;
-  border:1px solid #ccc;
-  margin:10px auto;
-}
-
-table thead tr:first-child {
-  border-top:none;
-  background:#f1f1f1;
-}
-
-.sorted_row {
-  background-color: red;
-}
-
-table tr {
-  border-top:1px solid #ccc;
-}
-
-table td {
-  padding: 5px;
-}
-button {
-  margin-top:5px;
-}
-
-.glyphicon {
-	right: 0;
-	margin-top: 20px;
-}
-
-.wrong {
-	color: #a94442;
-}
-
-.write {
-	color: #3c763d;
+.data {
+  width: 600px;
+  float: left;
 }
 
 th {
       cursor: pointer;
-    }
+}
 
-    th:hover {
-      background: yellow;
-    }
+th:hover {
+      background: #d8ebf5;
+}

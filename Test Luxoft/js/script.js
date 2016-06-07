@@ -1,5 +1,5 @@
 function newForm(id, config) {
-    var _self = ;
+    var _self = this;
     _self.init = function() {
         _self.form = document.getElementById(id);
         _self.action = config.action;
@@ -129,7 +129,7 @@ function doForm(config) {
             '<td>' + data['phone'] + '</td>' +
             '<td>' + data['gender'] + '</td>' +
             '<td>' + data['age'] + '</td>' +
-            '<td>' + '<a onclick="this.parentElement.parentElement.remove()" href="#">[x]</a>' + '</td>' +
+            '<td>' + '<a onclick="this.parentElement.parentElement.remove()" href="#"><img src="img/del.png" alt="delete" /></a>' + '</td>' +
             '</tr>';
 
     }
@@ -163,9 +163,9 @@ function doForm(config) {
         if (e.target.tagName != 'TH') return;
         var th = _self.table.getElementsByTagName('th');
         for (var i = 0; i < th.length; i++) {
-            _self.formObject.removeClass(th[i], 'sorted_row');
+            _self.formObject.removeClass(th[i], 'danger');
         }
-        e.target.className += 'sorted_row';
+        e.target.className += 'danger';
         _self.sortGrid(e.target.cellIndex, e.target.getAttribute('data-type'));
     }
 
