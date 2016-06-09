@@ -52,9 +52,9 @@ function newForm(id, config) {
         var element = this;
         _self.resets(element);
         if (_self.hasClass(element, 'field-text')) {
-            var regex = new RegExp("^[a-zA-Z ]+$");
+            var regex = new RegExp("^[a-zA-Zа-яА-ЯёЁ \d]+$");
         } else if (_self.hasClass(element, 'field-num')) {
-            var regex = new RegExp("^[0-9\+]+$");
+            var regex = new RegExp("^[a-z0-9+]+$");
         }
         var keyCode = !event.charCode ? event.which : event.charCode;
         var key = String.fromCharCode(keyCode);
@@ -161,6 +161,7 @@ function doForm(config) {
     _self.sortColumn = function(e) {
 
         if (e.target.tagName != 'TH') return;
+        if(e.target.getAttribute('data-type') == 'null') return;
         var th = _self.table.getElementsByTagName('th');
         for (var i = 0; i < th.length; i++) {
             _self.formObject.removeClass(th[i], 'danger');
