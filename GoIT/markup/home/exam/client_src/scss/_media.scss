@@ -1,0 +1,337 @@
+@media screen and (min-width:768px) {
+    .wrapper {
+        width: 768px;
+    }
+
+    .login {
+        float: right;
+
+        padding: 38px 20px 0 0;
+    }
+
+    .header__title {
+        float: left;
+
+        padding: 48px 0 0 38px;
+    }
+
+    .float-wrapper {
+        margin-bottom: 143px;
+
+        &::after {
+            @include clearfix;
+        }
+    }
+
+    .header__slogan {
+        font-size: 52px;
+        line-height: 62px;
+
+        width: 484px;
+        margin: 0 auto;
+        padding-bottom: 28px;
+
+        &--add {
+            font-size: 24px;
+
+            padding-bottom: 37px;
+        }
+    }
+
+    .button--header-main {
+        width: 224px;
+        margin-bottom: 234px;
+    }
+
+    .how-it-works {
+        margin-top: 95px;
+    }
+
+    .section-heading {
+        margin-bottom: 35px;
+    }
+
+    .jcarousel {
+        display: inline-block;
+
+        width: 235px;
+        height: 400px;
+
+        &:nth-child(3) {
+            margin: 0 17px;
+        }
+    }
+
+    .tile {
+        height: 400px;
+
+        &__article {
+            display: table-cell;
+
+            width: 232px;
+            height: 400px;
+            padding: 18px;
+
+            vertical-align: bottom;
+        }
+
+        &__text {
+            display: block;
+
+            width: 201px;
+            padding-bottom: 0;
+
+            vertical-align: bottom;
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        top: 40px;
+
+        display: block;
+
+        width: 30px;
+        height: 56px;
+
+        cursor: pointer;
+
+        &--left {
+            left: 20px;
+
+            background: url(../img/sprite.png) 0 0 no-repeat;
+        }
+
+        &--right {
+            right: 20px;
+
+            background: url(../img/sprite.png) -31px 0 no-repeat;
+        }
+
+        &:hover {
+            opacity: .8;
+        }
+
+        &:active {
+            opacity: 1;
+        }
+    }
+
+    .meet-a-partner {
+        margin-top: 94px;
+    }
+
+    .wrapper--partner {
+        width: 540px;
+    }
+
+    .section-heading--partner {
+        margin-bottom: 32px;
+    }
+
+    .partner {
+        display: inline-block;
+
+        width: 253px;
+        height: 220px;
+        margin-bottom: 39px;
+
+        vertical-align: top;
+
+        &__desc {
+            width: 220px;
+            margin: 0 auto;
+        }
+
+        &__icon-wrap {
+            right: 62px;
+        }
+    }
+
+    .button--partners {
+        width: 192px;
+        margin-top: 13px;
+        margin-left: -2px;
+    }
+
+    .discover-ideas {
+        margin-top: 97px;
+    }
+
+    .grid {
+        width: 100%;
+    }
+
+    .tile--ideas {
+        width: 236px;
+        height: 307px;
+        margin: 0 0 20px 0;
+
+        &-width2 {
+            width: 492px;
+        }
+    }
+
+    .tile__heading--ideas {
+        line-height: 307px;
+
+        width: 100%;
+    }
+
+    .searcher {
+        margin: 78px 0 100px 0;
+
+        &__desc {
+            margin-bottom: 38px;
+        }
+
+        &__input {
+            display: inline-block;
+
+            width: 240px;
+            margin: 0 12px 0 0;
+        }
+    }
+
+    .button--searcher {
+        display: inline-block;
+
+        width: 160px;
+
+        vertical-align: bottom;
+    }
+
+    .wrapper--footer {
+        padding-top: 38px;
+    }
+
+    .footer__title {
+        margin: 0 82px 0 30px;
+    }
+
+    .footer__title,
+    .company-wrapper,
+    .partners-wrapper, {
+        float: left;
+    }
+
+    .footer-menu {
+        width: 170px;
+    }
+
+    .footer-menu__title {
+        margin-bottom: 11px;
+
+        text-align: left;
+    }
+
+    .footer-menu__item {
+        line-height: 24px;
+
+        float: none;
+
+        text-align: left;
+    }
+
+    .designed-by {
+        float: right;
+
+        margin-right: 30px;
+
+        &__text {
+            margin-top: 0;
+            margin-left: 30px;
+        }
+    }
+}
+
+@media screen and (min-width:960px) {
+    .wrapper {
+        width: 960px;
+    }
+
+    .login {
+        padding-right: 0;
+
+        &__button {
+            margin: 0;
+        }
+    }
+
+    .header__title {
+        padding-left: 0;
+    }
+
+    .wrapper--how {
+        padding: 0 10px;
+    }
+
+    .jcarousel {
+        width: 300px;
+
+        &:nth-child(3) {
+            margin: 0 15px;
+        }
+    }
+
+    .tile__text {
+        width: 264px;
+    }
+
+    .tile__step {
+        margin-bottom: 13px;
+    }
+
+    .arrow {
+        top: 153px;
+
+        &--left {
+            left: 21px;
+        }
+
+        &--right {
+            right: 21px;
+        }
+    }
+
+    .wrapper--partner {
+        padding: 0;
+    }
+
+    .partner {
+        width: 237px;
+
+        &__icon-wrap {
+            right: 53px;
+        }
+    }
+
+    .tile--ideas {
+        width: 300px;
+
+        &-width2 {
+            width: 620px;
+        }
+
+        &:nth-child(2n+3) {
+            margin-right: 0;
+        }
+    }
+
+    .searcher {
+        margin-bottom: 102px;
+    }
+
+    .footer__title {
+        margin-right: 96px;
+        margin-left: 0;
+    }
+
+    .footer-menu {
+        width: 160px;
+    }
+
+    .designed-by {
+        margin-right: 0;
+    }
+}

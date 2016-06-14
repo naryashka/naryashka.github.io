@@ -1,0 +1,76 @@
+.header {
+    text-align: center;
+
+    color: $main-text-color;
+    background: url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+
+    &__title {
+        font-family: $montserrat-b;
+        font-size: 20px;
+
+        padding-bottom: 30px;
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__slogan {
+        font-family: $montserrat-b;
+        font-size: 30px;
+        line-height: 36px;
+
+        padding-bottom: 10px;
+
+        text-transform: uppercase;
+
+        &--add {
+            font-family: $roboto-l;
+            font-size: 18px;
+            line-height: 20px;
+
+            width: 79%;
+            margin: auto;
+            padding-bottom: 17px;
+        }
+    }
+}
+
+.login {
+    padding: 20px 0 117px 0;
+
+    &__button {
+        @include button;
+
+        line-height: 36px;
+
+        height: 36px;
+        margin-right: 21px;
+        padding: 0 16px;
+
+        &:hover {
+            color: $auxiliary-color;
+        }
+
+        &--bordered {
+            margin-left: -23px;
+
+            border-color: #fff;
+        }
+    }
+}
+
+.button--header-main {
+    @include button;
+
+    width: 280px;
+    margin-bottom: 138px;
+
+    border-color: $auxiliary-color;
+    background-color: $auxiliary-color;
+
+    &:hover {
+        color: $auxiliary-color;
+        background-color: $main-text-color;
+    }
+}

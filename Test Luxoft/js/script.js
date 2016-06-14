@@ -52,7 +52,7 @@ function newForm(id, config) {
         var element = this;
         _self.resets(element);
         if (_self.hasClass(element, 'field-text')) {
-            var regex = new RegExp("^[a-zA-Zа-яА-ЯёЁ \d]+$");
+            var regex = new RegExp("^[a-zA-Zа-яА-ЯёЁ ]+$");
         } else if (_self.hasClass(element, 'field-num')) {
             var regex = new RegExp("^[a-z0-9+]+$");
         }
