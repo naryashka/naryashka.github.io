@@ -88,7 +88,7 @@ box-shadow: 1px 3px 6px 3px rgba(189,187,189,1);
 
 .pre_photo {
 	width: 100%;
-	height: 100px;
+	height: 70px;
 }
 
 .main__content {
@@ -113,6 +113,12 @@ h1 {
 	line-height: 1.5em;
 	padding-left: 40px;
 	padding-right: 40px;
+}
+
+.main__content_text-bold {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 800;
 }
 
 .main__content_text-last {
