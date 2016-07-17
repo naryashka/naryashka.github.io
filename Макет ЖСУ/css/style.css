@@ -107,6 +107,17 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.link-facebook {
+	display: inline-block;
+	height: 86px;
+	width: 380px;
+	background-image: url(../img/fb_grey.png);
+}
+
+.link-facebook:hover {
+	background-image: url(../img/fb.png);
+}
+
 .main__content_text {
 	color: #575757;
 	font-size: 18px;
