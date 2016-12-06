@@ -1,0 +1,7 @@
+
+.slider    { overflow:hidden; position:relative; width: 50%; margin: 0 auto;}
+.slider ul { margin:0; padding:0; }
+.slider li { float:left; margin:0 5px 0 0; list-style:none; }
+/* IE6 issues */
+.slider ul { width:50%; }
+.controls {margin: 0 auto; text-align: center;}

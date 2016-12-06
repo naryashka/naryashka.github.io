@@ -1,0 +1,321 @@
+.how-it-works {
+    margin-top: 35px;
+
+    color: $main-text-color;
+}
+
+.section-heading {
+    font-family: $montserrat-b;
+    font-size: 22px;
+    line-height: 25px;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    color: $additional-text-color;
+}
+
+.jcarousel {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 300px;
+    height: 240px;
+    margin: 0 auto;
+
+    border-radius: 4px;
+
+    &__list {
+        position: relative;
+
+        width: 20000em;
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+    }
+
+    &__tile {
+        float: left;
+
+        &--1 {
+            background: url(../img/step1.jpg) no-repeat;
+        }
+
+        &--2 {
+            background: url(../img/step2.jpg) no-repeat;
+        }
+
+        &--3 {
+            background: url(../img/step3.jpg) no-repeat;
+        }
+    }
+
+    &:nth-child(3) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+
+    width: 150px;
+    height: 240px;
+
+    background-image: none;
+
+    &--left {
+        left: 0;
+    }
+
+    &--right {
+        right: 0;
+    }
+}
+
+.tile {
+    display: table;
+
+    width: 300px;
+    height: 240px;
+    margin: 0 auto;
+
+    border-radius: 4px;
+
+    &__article {
+        display: table-cell;
+
+        padding: 0 19px;
+
+        text-align: left;
+        vertical-align: bottom;
+    }
+
+    &__step {
+        font-family: $montserrat-r;
+        font-size: 10px;
+        line-height: 20px;
+
+        width: 70px;
+        height: 20px;
+        margin: 0 0 15px 2px;
+
+        text-align: center;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+
+        border-radius: 10px;
+        background-color: $auxiliary-color;
+    }
+
+    &__heading {
+        font-family: $montserrat-b;
+        font-size: 24px;
+        line-height: 29px;
+
+        margin-bottom: 13px;
+    }
+
+    &__text {
+        font-family: $roboto-l;
+        font-size: 14px;
+        line-height: 16px;
+
+        padding-bottom: 17px;
+
+        color: $tile-text-color;
+    }
+}
+
+.meet-a-partner {
+    margin-top: 35px;
+
+    text-align: center;
+}
+
+.section-heading--partner {
+    margin-left: -8px;
+}
+
+.partner {
+    position: relative;
+
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+
+    &__image {
+        display: inline-block;
+
+        width: 120px;
+        height: 120px;
+
+        border-radius: 60px;
+    }
+
+    &__icon-tv {
+        width: 17px;
+        height: 17px;
+
+        background: url(../img/sprite.png) -62px -18px no-repeat;
+    }
+
+    &__icon-cup {
+        width: 17px;
+        height: 17px;
+
+        background: url(../img/sprite.png) -63px -0 no-repeat;
+    }
+    &__icon-bottle {
+        width: 14px;
+        height: 16px;
+
+        background: url(../img/sprite.png) 2px -57px no-repeat;
+    }
+    &__icon-plane {
+        width: 17px;
+        height: 16px;
+
+        background: url(../img/sprite.png) -63px -36px no-repeat;
+    }
+
+    &__icon-wrap {
+        position: absolute;
+        top: 85px;
+        right: 46px;
+
+        width: 40px;
+        height: 40px;
+        padding: 7px 7px 7px 8px;
+
+        border: 4px solid #fff;
+        border-radius: 20px;
+
+        &--red {
+            background-color: #ff4e50;
+        }
+
+        &--green {
+            background-color: #1cd7ad;
+        }
+        &--yellow {
+            background-color: #ffa507;
+        }
+
+        &--blue {
+            background-color: #4e73db;
+        }
+    }
+
+    &__name {
+        font-family: $montserrat-b;
+        font-size: 14px;
+
+        margin: 19px 0 13px 0;
+
+        color: $additional-text-color;
+    }
+
+    &__desc {
+        font-family: $roboto-l;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #666;
+    }
+}
+
+.button--partners {
+    @include button;
+
+    width: 280px;
+    margin-left: -4px;
+
+    color: $auxiliary-color;
+    border-color: $auxiliary-color;
+
+    &:hover {
+        color: $main-text-color;
+        background-color: $auxiliary-color;
+    }
+}
+
+.discover-ideas {
+    margin-top: 35px;
+}
+
+.grid {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.tile__heading--ideas {
+
+    display: table-cell;
+    vertical-align: middle;
+
+    color: $main-text-color;
+}
+
+.tile--ideas {
+    width: 300px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    border: 1px solid $tile-text-color;
+
+    &:hover {
+        .tile__heading--ideas {
+            color: $tile-text-color;
+        }
+    }
+}
+
+.searcher {
+    margin-top: 27px;
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    &__desc {
+        font-family: $roboto-l;
+        font-size: 18px;
+
+        margin-bottom: 17px;
+
+        color: $additional-text-color;
+    }
+
+    &__input {
+        display: block;
+
+        width: 280px;
+        height: 40px;
+        margin: 0 auto 10px;
+        padding: 0 15px;
+
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 1px #eee;
+    }
+}
+
+.button--searcher {
+    @include button;
+
+    width: 280px;
+    margin-left: -4px;
+
+    border-color: $auxiliary-color;
+    background-color: $auxiliary-color;
+
+    &:hover {
+        color: $auxiliary-color;
+        background-color: $main-text-color;
+    }
+}

@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.selectbox {
+	margin-left: 20px;
+}
+
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/checkbox-sprite.png);
+}
+.niceCheck input {
+	display: none;
+}
+
+
+.css_check {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	}
+
+.css_label {
+	cursor: pointer;
+}
+
+.css_label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-sprite.png);
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+
+input[type=checkbox]:checked + label:after {
+	background-position: 0 -17px;
+}
+
+#block_menu {
+	width: 600px;
+	margin: 0 auto;
+	background: #242424;
+	color: white;
+	height: 340px;
+}
+
+#block_menu p {
+	width: 600px;
+	text-align: center;
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px 0px 0px 0px;
+}
+
+#menu {
+	width: 600px;
+}
+
+#menu ul {
+	list-style: none;
+}
+
+#menu ul li {
+	position: relative;
+	float: left;
+	background: #bc5d58;
+}
+
+#menu li ul { 
+	position:absolute; 
+	top:25px; 
+	display:none; 
+}
+
+#menu ul li a { 
+	display: block; 
+	padding: 10px; 
+	text-decoration: none;
+	color: white;
+	width: 70px;
+}
+
+.submenu li {
+	border-bottom: 1px solid black;
+	
+}
+
+#menu li:hover ul { 
+	display: block; 
+}
+
+#menu li ul li ul{
+    left: 90px;
+    top: 0;
+  }
+
+#menu a:hover {
+	color: #c0c0c0;
+}
+
+#menu li ul li ul li {
+  	display: none;
+  }
+
+#menu li ul li:hover ul li{
+  	display: block;
+  }
+
+#content {
+  	background-color: #bc5d58;
+  }
+
+#content p {
+  	background-color: #f0edef;
+  	display: inline-block;
+  	width: 560px;
+  	padding: 20px 20px 20px 20px;
+  	color: #6c6c70;
+	font-size: 16px;
+  	text-align: left;
+  }

@@ -1,0 +1,49 @@
+label {
+	display: block;
+	margin-left: 50px;
+}
+
+input {
+	margin-left: 100px;
+}
+
+input[type = checkbox] {
+    margin-right: 10px;
+}
+
+form a {
+    width: 140px;
+}
+
+.mymodal {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.mymodal-inner {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    background-color: white;
+    border: 2px solid #777;
+}
+
+.mistake {
+    background-color: rgba(239,48,56,0.9);
+}
+
+.correct {
+    background-color: rgba(85,213,52,0.9);
+}
+
+.mymodal-inner a {
+    width: 12%;
+    position: absolute;
+    left: 44%;
+    bottom: 15px;
+}
+

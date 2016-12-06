@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.united.min.css">
+    <meta charset="UTF-8">
+    <title>Test Luxoft</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="data .col-md-6" id="left">
+            <table id="records" class="table table-bordered" cellspacing="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th data-type="string">First Name</th>
+                        <th data-type="string">Last Name</th>
+                        <th data-type="number">Phone</th>
+                        <th data-type="string">Gender</th>
+                        <th data-type="number">Age</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="table-hover">
+                </tbody>
+            </table>
+        </section>
+        <section class="enter_data .col-md-6">
+            <form name="data" id="data" action="#">
+                <div id="first-name_block" class="form-group">
+                    <label class="control-label">First Name
+                        <input type="text" class="form-control field-text field-required" name="first_name" id="first_name">
+                        <span id="first-name_span"></span>
+                    </label>
+                </div>
+                <div id="last-name_block" class="form-group">
+                    <label class="control-label">Last Name
+                        <input type="text" class="form-control field-text field-required" name="last_name" id="last_name">
+                        <span id="last-name_span"></span>
+                    </label>
+                </div>
+                <div id="phone_block" class="form-group">
+                    <label class="control-label">Phone
+                        <input type="text" class="form-control field-num field-required" name="phone" id="phone">
+                        <span id="phone_span"></span>
+                    </label>
+                </div>
+                <div id="gender_block" class="form-group">
+                    <label class="control-label" for="male" id="sex">Gender:</label>
+                    <div class="radio radio-required">
+                        <label>
+                            <input type="radio" class="form-radio" name="gender" id="male" value="male"> Male
+                        </label>
+                        <label>
+                            <input type="radio" class="form-radio" name="gender" id="female" value="female">Female
+                        </label>
+                    </div>
+                </div>
+                <div id="age_block" class="form-group">
+                    <label class="control-label">Age
+                        <input type="number" name="age" class="form-control field-num field-required" id="age">
+                        <span id="age_span"></span>
+                    </label>
+                </div>
+                <input type="submit" class="btn btn-primary" name="submit" value="Add">
+            </form>
+        </section>
+        <script src="js/script.js"></script>
+        <script type="text/javascript">
+        window.onload = function() {
+            var form = new newForm('data', {
+                action: new doForm({
+                    table: 'records'
+                })
+            });
+        };
+        </script>
+    </div>
+</body>
+
+</html>

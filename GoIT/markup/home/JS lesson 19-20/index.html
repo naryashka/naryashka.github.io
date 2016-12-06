@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="build/css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700,500' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="build/js/jcarousel/jquery.jcarousel-core.min.js"></script>
+	<script src="build/js/jcarousel/jquery.jcarousel-control.min.js"></script>
+	<script src="build/js/jcarousel/jquery.jcarousel-pagination.min.js"></script>
+	<script src="build/js/jcarousel/jquery.jcarousel-autoscroll.min.js"></script>
+	<script src="js/src/lodash.js"></script>
+  	<script src="build/js/script.min.js"></script>
+
+	<title>JS lessons 19-20</title>
+</head>
+<body>
+	<header>
+		<div class="header__content">
+			<a class="logo" href="#">
+				<img class="logo__png" src="img/logo.png" alt="logo">
+				<div class="logo__text">
+					<p class="logo__text_bold">Build Home</p>
+					<p class="logo__text_uppercase">Industrial Theme</p>
+				</div>
+			</a>
+			<div class="social-networks">
+				<ul class="social-networks__list">
+					<li class="social-networks__list_item"><a class="social-networks__list_link social-networks__list_link-1 link" href="#"></a></li>
+					<li class="social-networks__list_item"><a class="social-networks__list_link social-networks__list_link-2 link" href="#"></a></li>
+					<li class="social-networks__list_item"><a class="social-networks__list_link social-networks__list_link-3 link" href="#"></a></li>
+					<li class="social-networks__list_item"><a class="social-networks__list_link social-networks__list_link-4 link" href="#"></a></li>
+					<li class="social-networks__list_item"><a class="social-networks__list_link social-networks__list_link-5 link" href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<nav class="main-nav">
+		<ul class="main-nav__menu">
+			<li class="main-nav__menu_item"><a class="main-nav__menu_link link" href="#">home</a></li>
+			<li class="main-nav__menu_item"><a class="main-nav__menu_link link" href="#">features</a></li>
+			<li class="main-nav__menu_item"><a class="main-nav__menu_link link" href="#">services</a></li>
+			<li class="main-nav__menu_item"><a class="main-nav__menu_link link" href="#">news</a></li>
+			<li class="main-nav__menu_item"><a class="main-nav__menu_link link" href="#">shop</a></li>
+		</ul>
+		<div class="main-nav__search">
+				<form action="URL">
+					<input class="main-nav__search_field" type="text" placeholder="Search...">
+				</form>
+		</div>
+		</nav>
+		<div class="wrap_jcarousel">
+			<div class="jcarousel">
+    			<ul>
+        			<li><img class="logo__png" src="img/slide-1.png" alt="logo"></li>
+        			<li><img class="logo__png" src="img/slide-2.jpg"></li>
+        			<li><img class="logo__png" src="img/slide-3.jpg"></li>
+    			</ul>
+			</div>
+  			<p class="jcarousel-pagination"></p>
+		</div>
+
+	<main>
+		<section class="numbered_content">
+			<ul class="numbered_content__list">
+				<li class="numbered_content__list_item">
+					<p class="numbered_content__list_number">01</p>
+					<div class="numbered_content__wrapper">
+						<img class="numbered_content__list_picture" src="img/intro-1.png" alt="picture">
+						<p class="numbered_content__list_title">Power inside</p>
+						<p class="numbered_content__list_text">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</p>
+						<a href="#" class="numbered_content__list_link">Read More <span class="numbered_content__list_link-arrow"></span></a>
+					</div>
+				</li>
+				<li class="numbered_content__list_item">
+					<p class="numbered_content__list_number">02</p>
+					<div class="numbered_content__wrapper">
+						<img class="numbered_content__list_picture" src="img/intro-2.png" alt="picture">
+						<p class="numbered_content__list_title">New Technologies</p>
+						<p class="numbered_content__list_text">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</p>
+						<a href="#" class="numbered_content__list_link">Read More <span class="numbered_content__list_link-arrow"></span></a>
+					</div>
+				</li>
+				<li class="numbered_content__list_item">
+					<p class="numbered_content__list_number">03</p>
+					<div class="numbered_content__wrapper">
+						<img class="numbered_content__list_picture" src="img/intro-3.png" alt="picture">
+						<p class="numbered_content__list_title">Fust Support</p>
+						<p class="numbered_content__list_text">Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique</p>
+						<a href="#" class="numbered_content__list_link">Read More <span class="numbered_content__list_link-arrow"></span></a>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<div class="dark_wrapper">
+			<section class="services">
+				<h3 class="services__header">Our Services</h3>
+	    	    <ul class="services__menu">
+	    	        <li class="services__menu_item">
+	    	            <a href="#" class="services__menu_link">
+	    	                <div class="services__menu_image services__menu_image-1">
+	    	                    <div class="services__menu_inner-image"></div>
+	    	                </div>
+	    	                <p class="services__menu_title">Schedule Services</p>
+	    	            </a>
+	    	        </li>
+	        	    <li class="services__menu_item">
+	        	        <a href="#" class="services__menu_link">
+	        	            <div class="services__menu_image services__menu_image-2">
+	        	                <div class="services__menu_inner-image"></div>
+	        	            </div>
+	        	            <p class="services__menu_title">Preventive Maintence</p>
+	        	        </a>
+	        	    </li>
+	        	    <li class="services__menu_item">
+	        	        <a href="#" class="services__menu_link">
+	        	        	<div class="services__menu_image services__menu_image-3">
+	                    	    <div class="services__menu_inner-image"></div>
+	                    	</div>
+	                    	<p class="services__menu_title">Tire &amp; Wheel Services</p>
+	        	        </a>
+	        	    </li>
+	        	    <li class="services__menu_item">
+	        	        <a href="#" class="services__menu_link">
+	        	            <div class="services__menu_image services__menu_image-4">
+	        	                <div class="services__menu_inner-image"></div>
+	        	            </div>
+	        	            <p class="services__menu_title">Repair Services</p>
+	        	        </a>
+	        	    </li>
+	        	</ul>
+			</section>
+		</div>
+		<div class="light_wrapper">
+			<section class="news">
+				<div class="latest-news">
+					<h2 class="latest-news__title">Latest News</h2>
+					<ul class="latest-news__blocks">
+						<li class="latest-news__blocks_item">
+							<div class="latest-news__date">
+								<p class="latest-news__date_month">Jan</p>
+								<p class="latest-news__date_day">23</p>
+							</div>
+							<div class="latest-news__blocks_image latest-news__blocks_image-1"></div>
+							<div class="latest-news__blocks_content">
+								<p class="content__title"><a href="#" class="content__title_link">Advanced Machinery Helps Improve Quality</a></p>
+								<p class="content__filling">
+									<span class="content__filling_comment">by</span>
+									<a href="#" class="content__filling_link">cmsmasters</a>
+									<span class="content__filling_comment">Comments (
+									<a href="#" class="content__filling_link">6</a>
+									)</span>
+								</p>
+								<p class="content__text">
+									Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit sarepnatur samomo enim ipsam voluptatem.
+								</p>
+							</div>
+						</li>
+						<li class="latest-news__blocks_item">
+							<div class="latest-news__date">
+								<p class="latest-news__date_month">Jan</p>
+								<p class="latest-news__date_day">21</p>
+							</div>
+							<div class="latest-news__blocks_image latest-news__blocks_image-2"></div>
+							<div class="latest-news__blocks_content">
+								<p class="content__title"><a href="#" class="content__title_link">Powerful Techniques for Advanced Serice</a></p>
+								<p class="content__filling">
+									<span class="content__filling_comment">by</span>
+									<a href="#" class="content__filling_link">cmsmasters</a>
+									<span class="content__filling_comment">Comments (
+									<a href="#" class="content__filling_link">3</a>
+									)</span>
+								</p>
+								<p class="content__text">
+									Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit sarepnatur samomo enim ipsam voluptatem.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="banners">
+					<h2 class="banners__title">Banners Place</h2>
+					<ul class="banners__panel">
+						<li class="banners__panel_item banners__panel_item-yellow">
+							<ul class="banners__rows">
+								<li class="banners__rows_item banners__rows_kube banners__rows_yellow">-</li>
+								<li class="banners__rows_item banners__rows_row banners__rows_yellow">Accordion Panel 1</li>
+							</ul>
+							<p class="banners__panel_text">
+								Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit sarepnatur samomo enim ipsam voluptatem.Cum sociis natoque penatibus et magnis dis parturient montesmus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit sarepnatur samomo enim ipsam voluptatem.
+							</p>
+						</li>
+						<li class="banners__panel_item">
+							<ul class="banners__rows">
+								<li class="banners__rows_item banners__rows_kube">+</li>
+								<li class="banners__rows_item banners__rows_row">Accordion Panel 2</li>
+							</ul>
+						</li>
+						<li class="banners__panel_item">
+							<ul class="banners__rows">
+								<li class="banners__rows_item banners__rows_kube">+</li>
+								<li class="banners__rows_item banners__rows_row">Accordion Panel 3</li>
+							</ul>
+						</li>
+						<li class="banners__panel_item">
+							<ul class="banners__rows">
+								<li class="banners__rows_item banners__rows_kube">+</li>
+								<li class="banners__rows_item banners__rows_row">Accordion Panel 4</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+			<section class="logos">
+				<ul class="logos__list">
+					<li class="logos__list_item"><a href="#" class="logos__list_link"><img src="img/logo-1.png" alt="img"></a></li>
+					<li class="logos__list_item"><a href="#" class="logos__list_link"><img src="img/logo-2.png" alt="img"></a></li>
+					<li class="logos__list_item"><a href="#" class="logos__list_link"><img src="img/logo-3.png" alt="img"></a></li>
+					<li class="logos__list_item"><a href="#" class="logos__list_link"><img src="img/logo-4.png" alt="img"></a></li>
+					<li class="logos__list_item"><a href="#" class="logos__list_link"><img src="img/logo-5.png" alt="img"></a></li>
+					<li class="logos__list_item"><a href="#" class="logos__list_link"><img src="img/logo-6.png" alt="img"></a></li>
+				</ul>
+			</section>
+		<div class="dark_wrapper">
+			<nav class="lower-nav">
+				<div class="lower-nav__socials">
+					<p class="lower-nav__title">Socials</p>
+					<ul class="lower-nav__menu">
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Facebook</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Flickr</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Twitter</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Vimeo</a></li>
+					</ul>
+				</div>
+				<div class="lower-nav__links">
+					<p class="lower-nav__title">Links</p>
+					<ul class="lower-nav__menu">
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">How to Write a Blog</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Create a Blog in 4 Steps</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">15 Tips to Increase Traffic</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">20 Blog Post Ideas</a></li>
+					</ul>
+				</div>
+				<div class="lower-nav__blogroll">
+					<p class="lower-nav__title">Blogroll</p>
+					<ul class="lower-nav__menu">
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Blogs Blog</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Roll Up Roll Up</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Blog Free</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Wordpress Blog</a></li>
+					</ul>
+				</div>
+				<div class="lower-nav__about-us">
+					<p class="lower-nav__title">About us</p>
+					<ul class="lower-nav__menu">
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Agriculture</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Harvest</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Company news</a></li>
+						<li class="lower-nav__menu_item"><a href="#" class="lower-nav__menu_link">Investor relations</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>	
+		</main>
+		<div class="footer_wrapper">
+			<footer>
+				<div class="footer__contacts">
+					<span class="footer__contacts_item footer__contacts_item-addres">
+					<span class="footer__contacts_item-pic footer__contacts_item-pic1"></span>BuildHomeLtd.  Street Name 123   23 45 Cityname</span>
+					<span class="footer__contacts_item footer__contacts_item-phone"><span class="footer__contacts_item-pic footer__contacts_item-pic2"></span>+123 900 123 465</span>
+	                <span class="footer__contacts_item footer__contacts_item-email"><span class="footer__contacts_item-pic footer__contacts_item-pic3"></span>info@buildhome.web</span>
+	                <span class="footer__contacts_item footer__contacts_item-title">&copy; 2014 Build Home</span>
+				</div>
+			</footer>
+		</div>
+</body>
+</html>

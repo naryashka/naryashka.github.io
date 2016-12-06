@@ -1,0 +1,16 @@
+/*
+ * Third party
+ */
+
+@import '../libs/reset-css/_reset';
+
+/*
+ * Custom
+ */
+
+@import '_sprite';
+@import '_variables';
+@import 'partials/_header';
+@import 'partials/_content';
+@import 'partials/_footer';
+@import '_media';

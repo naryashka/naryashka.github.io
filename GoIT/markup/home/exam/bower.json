@@ -1,0 +1,22 @@
+{
+  "name": "project1",
+  "description": "GoIT JS final exam",
+  "main": "app.js",
+  "author": "Lovygin Nikita",
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client_src",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1",
+    "isotope": "^2.2.2",
+    "reset-css": "^2.0.2011012603",
+    "jcarousel": "^0.3.4"
+  },
+  "devDependencies": {}
+}
