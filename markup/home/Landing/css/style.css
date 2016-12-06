@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fac7d4;
+}
+
+.on_top {
+	position: relative;
+	z-index: 4;
+}
+
+.under {
+	position: relative;
+	z-index: 3;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 480px) {
+
+header {
+	width: 100%;
+	height: 200px;
+	background: url(../img/header_mobile.jpg);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: center;
+	align-items: center;
+}
+
+#number_1 {
+	background: url(../img/1_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 305px;
+	
+}
+
+#number_1_active {
+	margin-top: -302px;
+}
+
+#number_2 {
+	background: url(../img/2_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 305px;
+}
+#number_2 {
+	background: url(../img/2_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 305px;
+}
+#number_3 {
+	background: url(../img/3_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 305px;
+}
+#number_4 {
+	background: url(../img/4_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 405px;
+}
+#number_5 {
+	background: url(../img/5_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 405px;
+}
+#number_7 {
+	background: url(../img/7_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 405px;
+}
+#number_8 {
+	background: url(../img/8_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 405px;
+}
+#number_9 {
+	background: url(../img/9_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 205px;
+}
+#number_10 {
+	background: url(../img/10_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 405px;
+}
+#number_11 {
+	background: url(../img/11_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 205px;
+}
+#number_12 {
+	background: url(../img/12_mobile.png);
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	width: 320px;
+	height: 405px;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+
+}
