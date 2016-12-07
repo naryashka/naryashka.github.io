@@ -9,13 +9,27 @@ body {
 }
 
 .number_blocks {
-	margin-top: 2px;
+	margin-top: 3px;
+
+}
+
+.numbers_active {
+	visibility: visible;
 }
 
 .wrapper {
 	display: block;
 	background-color: #ffffff;
 }
+
+.rows {
+	width: 100%;
+}
+
+.img_link {
+	visibility: hidden;
+}
+
 
 @media only screen and (min-width: 320px) and (max-width: 640px) {
 	
@@ -27,22 +41,6 @@ header {
 	background-color: #e62449;
 }	
  
-.first_row {
-	width: 100%;
-	margin-top: 5px;
-}
-.second_row {
-	width: 100%;
-	margin-top: 8px;
-}
-.third_row {
-	width: 100%;
-	margin-top: 8px;
-}
-.fourth_row {
-	width: 100%;
-	margin-top: 8px;
-}
 
 #number1 {
 	height: 320px;
@@ -52,12 +50,31 @@ header {
 	margin-bottom: 5px;
 }
 
+#img_link1 {
+	display: block;
+	height: 320px;
+	width: 100%;
+	background: url(../img/1_active.png);
+	background-position: center;
+	margin-bottom: 5px;	
+}
+
 #number2 {
 	height: 320px;
 	width: 100%;
 	background: url(../img/2.png);
 	background-position: center;
 }
+
+#img_link2 {
+	display: block;
+	height: 320px;
+	width: 100%;
+	background: url(../img/2_active.png);
+	background-position: center;
+	margin-bottom: 5px;	
+}
+
 #number3 {
 	height: 300px;
 	width: 100%;
@@ -77,7 +94,7 @@ header {
 	background-position: center;
 }
 #number6 {
-	height: 300px;
+	height: 200px;
 	width: 100%;
 	background: url(../img/6.png);
 	background-position: center;
@@ -95,19 +112,19 @@ header {
 	background-position: center;
 }
 #number9 {
-	height: 300px;
+	height: 200px;
 	width: 100%;
 	background: url(../img/9.png);
 	background-position: center;
 }
 #number10 {
 	height: 300px;
-	width: 25%;
+	width: 100%;
 	background: url(../img/10.png);
 	background-position: center;
 }
 #number11 {
-	height: 300px;
+	height: 200px;
 	width: 100%;
 	background: url(../img/11.png);
 	background-position: center;
@@ -130,27 +147,6 @@ header {
 	background-color: #e62449;
 }
  
-.first_row {
-	width: 100%;
-	height: 200px;
-	margin-top: 5px;
-}
-.second_row {
-	width: 100%;
-	height: 200px;
-	margin-top: 8px;
-}
-.third_row {
-	width: 100%;
-	height: 200px;
-	margin-top: 8px;
-}
-.fourth_row {
-	width: 100%;
-	height: 200px;
-	margin-top: 8px;
-}
-
 #number1 {
 	float: left;
 	height: 200px;
@@ -260,26 +256,6 @@ header {
 	background-color: #e62449;
 }
  
-.first_row {
-	width: 100%;
-	height: 300px;
-	margin-top: 5px;
-}
-.second_row {
-	width: 100%;
-	height: 300px;
-	margin-top: 8px;
-}
-.third_row {
-	width: 100%;
-	height: 300px;
-	margin-top: 8px;
-}
-.fourth_row {
-	width: 100%;
-	height: 300px;
-	margin-top: 8px;
-}
 
 #number1 {
 	float: left;
