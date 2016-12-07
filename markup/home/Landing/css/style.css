@@ -6,135 +6,249 @@
 body {
 	width: 100%;
 	height: 100%;
-	background-color: #fac7d4;
 }
 
-.on_top {
-	position: relative;
-	z-index: 4;
+.number_blocks {
+	margin-top: 2px;
 }
 
-.under {
-	position: relative;
-	z-index: 3;
-}
 
-@media only screen and (min-width: 319px) and (max-width: 480px) {
-
+@media only screen and (min-width: 320px) and (max-width: 960px) {
+	
 header {
 	width: 100%;
 	height: 200px;
-	background: url(../img/header_mobile.jpg);
-	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-
+	background: url(../img/banner.jpg) no-repeat;
+	background-position: top center;
+	background-color: #e62449;
 }
-
 .wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	height: 100%;
-	position: center;
-	align-items: center;
+	display: block;
+	background-color: #ffffff;
 }
-
-#number_1 {
-	background: url(../img/1_mobile.png);
-	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 305px;
 	
+ 
+.first_row {
+	width: 100%;
+	margin-top: 5px;
+}
+.second_row {
+	width: 100%;
+	margin-top: 8px;
+}
+.third_row {
+	width: 100%;
+	margin-top: 8px;
+}
+.fourth_row {
+	width: 100%;
+	margin-top: 8px;
 }
 
-#number_1_active {
-	margin-top: -302px;
+#number1 {
+	height: 320px;
+	width: 100%;
+	background: url(../img/1.png);
+	background-position: center;
+	margin-bottom: 5px;
 }
 
-#number_2 {
-	background: url(../img/2_mobile.png);
+#number2 {
+	height: 320px;
+	width: 100%;
+	background: url(../img/2.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 305px;
 }
-#number_2 {
-	background: url(../img/2_mobile.png);
+#number3 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/3.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 305px;
 }
-#number_3 {
-	background: url(../img/3_mobile.png);
+#number4 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/4.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 305px;
 }
-#number_4 {
-	background: url(../img/4_mobile.png);
+#number5 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/5.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 405px;
 }
-#number_5 {
-	background: url(../img/5_mobile.png);
+#number6 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/6.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 405px;
 }
-#number_7 {
-	background: url(../img/7_mobile.png);
+#number7 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/7.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 405px;
 }
-#number_8 {
-	background: url(../img/8_mobile.png);
+#number8 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/8.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 405px;
 }
-#number_9 {
-	background: url(../img/9_mobile.png);
+#number9 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/9.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 205px;
 }
-#number_10 {
-	background: url(../img/10_mobile.png);
+#number10 {
+	height: 300px;
+	width: 25%;
+	background: url(../img/10.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 405px;
 }
-#number_11 {
-	background: url(../img/11_mobile.png);
+#number11 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/11.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 205px;
 }
-#number_12 {
-	background: url(../img/12_mobile.png);
+#number12 {
+	height: 300px;
+	width: 100%;
+	background: url(../img/12.png);
 	background-position: center;
-	background-repeat: no-repeat, no-repeat;
-	width: 320px;
-	height: 405px;
+}
+}
+@media only screen and (min-width: 961px) and (max-width: 1600px) {
+.wrapper {
+display: block;
+
+	background-color: #ffffff;
+}
+	
+header {
+	width: 100%;
+	height: 200px;
+	background: url(../img/banner.jpg) no-repeat;
+	background-position: top center;
+	background-color: #e62449;
+}
+ 
+.first_row {
+	width: 100%;
+	height: 300px;
+	margin-top: 5px;
+}
+.second_row {
+	width: 100%;
+	height: 300px;
+	margin-top: 8px;
+}
+.third_row {
+	width: 100%;
+	height: 300px;
+	margin-top: 8px;
+}
+.fourth_row {
+	width: 100%;
+	height: 300px;
+	margin-top: 8px;
 }
 
+#number1 {
+	float: left;
+	height: 300px;
+	width: 33%;
+	background: url(../img/1.png);
+	background-position: center;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-
+#number2 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 300px;
+	width: 33%;
+	background: url(../img/2.png);
+	background-position: center;
+}
+#number3 {
+	float: left;
+	height: 300px;
+	width: 33%;
+	background: url(../img/3.png);
+	background-position: center;
+}
+#number4 {
+	float: left;
+	height: 300px;
+	width: 25%;
+	background: url(../img/4.png);
+	background-position: center;
+}
+#number5 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 300px;
+	width: 25%;
+	background: url(../img/5.png);
+	background-position: center;
+}
+#number6 {
+	float: left;
+	height: 300px;
+	width: 49%;
+	background: url(../img/6.png);
+	background-position: center;
+}
+#number7 {
+	float: left;
+	height: 300px;
+	width: 25%;
+	background: url(../img/7.png);
+	background-position: center;
+}
+#number8 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 300px;
+	width: 25%;
+	background: url(../img/8.png);
+	background-position: center;
+}
+#number9 {
+	float: left;
+	height: 300px;
+	width: 49%;
+	background: url(../img/9.png);
+	background-position: center;
+}
+#number10 {
+	float: left;
+	height: 300px;
+	width: 25%;
+	background: url(../img/10.png);
+	background-position: center;
+}
+#number11 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 300px;
+	width: 49%;
+	background: url(../img/11.png);
+	background-position: center;
+}
+#number12 {
+	float: left;
+	height: 300px;
+	width: 25%;
+	background: url(../img/12.png);
+	background-position: center;
+}
 
 
 }
