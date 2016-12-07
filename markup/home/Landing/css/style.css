@@ -12,8 +12,12 @@ body {
 	margin-top: 2px;
 }
 
+.wrapper {
+	display: block;
+	background-color: #ffffff;
+}
 
-@media only screen and (min-width: 320px) and (max-width: 960px) {
+@media only screen and (min-width: 320px) and (max-width: 640px) {
 	
 header {
 	width: 100%;
@@ -21,12 +25,7 @@ header {
 	background: url(../img/banner.jpg) no-repeat;
 	background-position: top center;
 	background-color: #e62449;
-}
-.wrapper {
-	display: block;
-	background-color: #ffffff;
-}
-	
+}	
  
 .first_row {
 	width: 100%;
@@ -120,13 +119,139 @@ header {
 	background-position: center;
 }
 }
-@media only screen and (min-width: 961px) and (max-width: 1600px) {
-.wrapper {
-display: block;
 
-	background-color: #ffffff;
+@media only screen and (min-width: 641px) and (max-width: 960px) {
+
+header {
+	width: 100%;
+	height: 200px;
+	background: url(../img/banner.jpg) no-repeat;
+	background-position: top center;
+	background-color: #e62449;
 }
-	
+ 
+.first_row {
+	width: 100%;
+	height: 200px;
+	margin-top: 5px;
+}
+.second_row {
+	width: 100%;
+	height: 200px;
+	margin-top: 8px;
+}
+.third_row {
+	width: 100%;
+	height: 200px;
+	margin-top: 8px;
+}
+.fourth_row {
+	width: 100%;
+	height: 200px;
+	margin-top: 8px;
+}
+
+#number1 {
+	float: left;
+	height: 200px;
+	width: 33%;
+	background: url(../img/1_mdl.png);
+	background-position: center;
+}
+
+#number2 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 200px;
+	width: 33%;
+	background: url(../img/2_mdl.png);
+	background-position: center;
+}
+#number3 {
+	float: left;
+	height: 200px;
+	width: 33%;
+	background: url(../img/3_mdl.png);
+	background-position: center;
+}
+#number4 {
+	float: left;
+	height: 200px;
+	width: 25%;
+	background: url(../img/4_mdl.png);
+	background-position: center;
+}
+#number5 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 200px;
+	width: 25%;
+	background: url(../img/5_mdl.png);
+	background-position: center;
+}
+#number6 {
+	float: left;
+	height: 200px;
+	width: 49%;
+	background: url(../img/6_mdl.png);
+	background-position: center;
+}
+#number7 {
+	float: left;
+	height: 200px;
+	width: 25%;
+	background: url(../img/7_mdl.png);
+	background-position: center;
+}
+#number8 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 200px;
+	width: 25%;
+	background: url(../img/8_mdl.png);
+	background-position: center;
+}
+#number9 {
+	float: left;
+	height: 200px;
+	width: 49%;
+	background: url(../img/9_mdl.png);
+	background-position: center;
+}
+#number10 {
+	float: left;
+	height: 200px;
+	width: 25%;
+	background: url(../img/10_mdl.png);
+	background-position: center;
+}
+#number11 {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	float: left;
+	height: 200px;
+	width: 49%;
+	background: url(../img/11_mdl.png);
+	background-position: center;
+}
+#number12 {
+	float: left;
+	height: 200px;
+	width: 25%;
+	background: url(../img/12_mdl.png);
+	background-position: center;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 961px) and (max-width: 1600px) {
+
 header {
 	width: 100%;
 	height: 200px;
