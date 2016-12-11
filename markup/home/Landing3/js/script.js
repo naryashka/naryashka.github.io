@@ -3,7 +3,11 @@ var date = new Date();
 var current = (date.getDate());
 console.log(current);
 
+if (current > 11) {
+$("#non_active1").removeClass("non_active");
+  
 
+}
 
 if (current == 11) {
 $("#number1").click(function(){
